@@ -1,0 +1,28 @@
+
+
+.jumbotron h1{
+	color:#3a4556;
+	font:40px;
+}
+.jumbotron p{
+	color:#3a4556;
+}
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	font-size: 20px;
+}
+p{
+	margin: 10px;
+	padding:10px;
+}
+img {
+	padding: 40px; 
+}
+.contact-photo {
+
+	}
+#map {
+	width: 100%
+	height: 400px;
+}

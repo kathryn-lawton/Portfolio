@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+
+	<head>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Lawton Webpage</title>
+		<meta name= "description" content="Description of the page content" />
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+
+	</head>
+
+	<body>
+	<center>
+		<div class="jumbotron text-center">
+			<h1>Contact</h1>
+		</div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="AboutMe.html">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contact.html">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Skills-Technologies.html">Skills/Technologies</a>
+				</li>
+			</ul>
+		</nav>
+			<div class= "container">
+			<div class="row">
+				<div class="col-md-6">
+
+					<img src="tech.png" class="img-fluid rounded-circle" alt="Technology Stock Photo">
+
+						<a href="mailto:klawton16@gmail.com" class="btn btn-primary">Email</a>
+						<br>
+						<br>
+
+						<a href="http://www.linkedin.com/in/kathryn-lawton-a6973834"  class="btn btn-primary">LinkedIn</a>
+
+				</div>
+				<div class="col-md-6">
+					<h3>Google Map</h3>
+					<div id="map" >My map will go here
+				</div>
+					
+				<script>
+				function myMap() {
+				var mapCanvas =  document.getElementById ("map");
+				var mapOptions = {
+    				center:new google.maps.LatLng(430204.1,875443.1),
+    				zoom:10,
+				};
+				var map=new google.maps.Map(mapCanvas, mapOptions);
+				}
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDU6_xRK9ebmEU24U7Cz1D3apEWJEPWDGs=myMap"></script>
+
+				</div>
+			</div>
+		</div>
+
+	</center>
+	</body>
+	
+</html>
